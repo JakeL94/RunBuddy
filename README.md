@@ -1,1 +1,1 @@
-# RunBuddy
+# Run Buddy Inc.
