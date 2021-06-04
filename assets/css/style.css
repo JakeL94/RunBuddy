@@ -147,6 +147,16 @@ section {
   text-align: center;
 }
 
+.steps {
+  text-align: center;
+  background-color: #fce138;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+} 
+
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
@@ -163,27 +173,12 @@ section {
   margin-right: 20px;
 }
 
-.step-text {
-  flex: 12;
+.step-img img {
+  max-width: 100%;
 }
 
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  border-bottom: 3px solid;
-  color: #024e76;
-  padding-bottom: 20px;
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
-}
-  
-.primary-border {
-  border-color: #fce138;
-}
-  
-.secondary-border {
-  border-color: #39a6b2;
+.step-text {
+  flex: 12;
 }
 
 .step h3 {
@@ -204,10 +199,29 @@ section {
   font-size: 18px;
 }
 
-.step-text h3 {
+.step-text h4 {
   font-size: 26px;
   line-height: 1.5;
   color: #024e76;
+}
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  border-bottom: 3px solid;
+  color: #024e76;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+  
+.primary-border {
+  border-color: #fce138;
+}
+  
+.secondary-border {
+  border-color: #39a6b2;
 }
 
 .trainer {
